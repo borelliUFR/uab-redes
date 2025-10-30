@@ -28,10 +28,12 @@ Demonstrar, na prática, como ocorre o envio e recebimento de mensagens em redes
    python tcp_client.py
 
 ### ▶️ Em Java
-1. Compile os arquivos de código fonte
+1. Compile os arquivos de código fonte:
+   ```bash
    javac ServidorTCPBasico.java ClienteTCPBasico.java RemetenteUDP.java ReceptorUDP.java
 
-2. Exemplo de execução
+2. Exemplo de execução:
+   ```bash
    java ServidorTCPBasico
    java ClienteTCPBasico
 
